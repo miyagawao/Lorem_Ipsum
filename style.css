@@ -60,8 +60,6 @@ img {
   font-size: 20px;
 }
 
-
-
 .portfolio {
   background-color: #ECEFF1;
   color: #000000;
@@ -73,7 +71,7 @@ img {
   padding-top: 90px;
   text-align: center;
 }
-.portfolio-text hr {
+hr {
   width: 70px; /* 横幅を70pxに指定 */
   height: 0; /* 高さを0に指定（水平線） */
   border: none; /* 境界線を無効化 */
@@ -140,4 +138,184 @@ img {
 .image-box:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
   margin-bottom: 90px;
+}
+
+.feature {
+  color: #000000;
+  text-align: center;
+}
+
+.feature-text h1 {
+  font-size: 32px;
+  padding-top: 90px;
+}
+
+.feature-text p {
+  font-size: 16px;
+  padding: 30px 0 30px 0;
+}
+
+.strength {
+  display: flex;
+  width: 980px;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.strength-text {
+  width: 320px;
+  height: auto;
+  padding-right: 10px;
+  margin-bottom: 90px;
+}
+
+.strength-text h6 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.strength-text a {
+  font-size: 16px;
+  display: block;
+  text-align: left;
+}
+
+.fa-solid.fa-code {
+  font-size: 60px;
+}
+
+.fas.fa-desktop {
+  font-size: 60px;
+}
+
+.fas.fa-cogs {
+  font-size: 60px;
+}
+
+.profile-container {
+  background-color: #ECEFF1;
+  color: #000000;
+}
+
+
+.profile-text h1 {
+  font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.profile-text a {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 90px;
+  
+}
+
+.profile-image {
+  width: 512px;
+}
+
+.profile-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-info {
+  justify-content: center;
+  align-items: center;
+  width: 512px;
+}
+
+.profile-name h6 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.profile-name a {
+  font-size: 16px;
+}
+
+.profile-skills h6 {
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.contact-container {
+  color: #000000
+}
+
+.contact-text h1 {
+  font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.contact-text a {
+  font-size: 16px;
+  padding: 30px 0;
+  display: block;
+  text-align: center;
+}
+
+.contact-contents {
+  width: 800px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 90px;
+}
+
+.contact-details {
+  width: 400px;
+  text-align: center;
+}
+
+.contact-details h6 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.contact-sns {
+  width: 400px; 
+  text-align: center;
+}
+
+.contact-sns h6 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.fab.fa-facebook-f,
+.fab.fa-twitter,
+.fab.fa-instagram {
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  font-size: 16px;
+  color: #FAFAFA;
 }
